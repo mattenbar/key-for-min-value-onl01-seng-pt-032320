@@ -3,11 +3,11 @@
 
 def key_for_min_value(name_hash)
   smallest_value = 0
-  smallest_k = ""
+  smallest_key = ""
   name_hash.map do
-    |x, value| if smallest_value > value
-      smallest_k = value
+    |key, value| if smallest_value > value
+      smallest_key = value
   end
   end
-  return smallest_k = x
+  return smallest_key = key
 end
