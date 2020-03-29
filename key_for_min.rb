@@ -8,5 +8,6 @@ def key_for_min_value(name_hash)
     |key, value| if smallest_key > value
       smallest_key = value
   end
+  end
   return smallest_key = key
 end
